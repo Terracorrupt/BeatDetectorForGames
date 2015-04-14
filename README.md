@@ -8,3 +8,5 @@ Should theoretically work with any C++ or C# Games framework. Look in the folder
 Currently only works on Windows machines, and the C++ version only works on Visual Studio for now.
 
 Feel free to mess around with it, I'm sure there are improvements that can be made :D
+
+Please note that if you intend to use this for a commercial game (i.e to sell) you will need to look at FMOD's lisencing policies. I made under the FMOD Non-Commerical lisence, and would hope that this library be kept that way. That being said, if you do plan on using it for commercial use I expect full credit for the beat detection.
