@@ -11,12 +11,14 @@ INSTRUCTIONS:
 How to use:
 
 Create an instance of the BeatDetector by using the call
-"BeatDetector detector = BeatDetector.Instance();"
+"BeatDetector detector = BeatDetector.Instance();" or just reference "BeatDetector.Instance() throughout.
 
 Load the system with "detector.loadSystem();"
 
-Load a song with "detector.LoadSong(sampleSize, filePath);"
+Load a song with "detector.LoadSong(sampleSize, filePath);" 
 Where the sampleSize is how many samples the beat detector will pull per tick, and the filepath referencing the song to load in (preferably a .mp3 or .wav).
+For most song's you'll want the sampleSize to be 1024.
+
 
 Songs by default are paused, so "detector.setStarted(true);" is necessary for the song to begin playing.
 
