@@ -20,6 +20,8 @@ Load the system with "BeatDetector::Instance()->loadSystem();"
 
 Load a song with "BeatDetector::Instance()->LoadSong(sampleSize, filePath);"
 Where the sampleSize is how many samples the beat detector will pull per tick, and the filepath referencing the song to load in (preferably a .mp3 or .wav).
+For most song's you'll want the sampleSize to be 1024.
+
 
 Songs by default are paused, so "detector.setStarted(true);" is necessary for the song to begin playing.
 
