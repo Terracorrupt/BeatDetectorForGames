@@ -1,3 +1,5 @@
+Note: This project is old and not supported further
+
 # BeatDetectorForGames
 A C++ and C# Beat Detector to be used in Video Games. 
 
